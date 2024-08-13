@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #faf282;
+}
+
+.icon-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+
+nav details{
+    position: relative;
+}
+
+nav details summary{
+    list-style: none;
+    cursor: pointer;
+}
+
+nav details ul{
+    position: absolute;
+    right: 100%;
+    list-style: none;
+    width: max-content;
+    background: #ffffff;
+    border-radius: 6px;
+    margin: 0;
+    padding-inline-start: 0;
+}
+
+nav details ul li {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+nav details ul li:hover{
+    background: #c2e2f1;
+}
